@@ -1,0 +1,19 @@
+.cardContainer{
+    display: block;
+    width: 250px;
+    background: rgb(221, 178, 36);
+    border-radius: 10px;
+    height: 350px;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px; 
+}
+.cardContainer img{ 
+    width: 225px;
+}
+
+.cardContainer p{
+    text-align: justify;
+   
+}

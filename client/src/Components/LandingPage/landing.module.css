@@ -1,0 +1,32 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+.imgContainer{
+    background-image:url('./bgLanding.jpg') ;
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+h1{
+    color: rgb(191, 191, 191);
+    -webkit-text-stroke: 1px rgb(30,30,30);
+}
+.imgContainer .btnEnter{
+    color:rgb(191, 191, 191);
+    border-color: rgb(191, 191, 191);
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 8px;
+    transition: transform 2s ease;
+    margin-top: 450px;
+}
+
+.btnEnter:hover{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(191, 191, 191);
+    border-color: rgb(191, 191, 191);
+    color:rgb(30,30,30)
+}

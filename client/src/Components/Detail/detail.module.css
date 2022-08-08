@@ -1,0 +1,31 @@
+.detailContainer{
+    margin: 0;
+    color:white;
+    background-image: url('./bgDetail.jpg');
+    background-size: cover; 
+    min-height: 100vh;   
+    background-attachment: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detailContainer h2{
+    color:white
+}
+.infoDetailsContainer{
+    background-color: rgb(33, 40, 46);
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    
+}
+.infoDetailsContainer img{
+    width:200px;
+}
+.infoDetail{
+    text-align: left;
+
+}
